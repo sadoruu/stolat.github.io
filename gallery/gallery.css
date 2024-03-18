@@ -82,3 +82,7 @@ a:hover{
 .container .content #music{
     display:none;
 }
+
+#iframe{
+    display:none;
+}
