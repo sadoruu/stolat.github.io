@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.container .header{
+    width: 100%;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 20px;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+.container .header .button{
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 200px;
+    align-items: center;
+    cursor: pointer;
+}
+.container .header .button:hover{
+    color: white;
+    background-color: rgb(148, 148, 148);
+}
+.container .content{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container .content .dot{
+    
+}
+.container .content .dot button{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    border: 0;
+    background-color: #000000;
+    cursor: pointer;
+}
+.container .content .dot button:hover{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    border: 0;
+    background-color: #000000
+}
+.container .footer{
+    letter-spacing: 4px;
+    font-family: "Open Sans";
+    background-color: grey;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    text-decoration: none;
+}
+.container .footer a button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 10px;
+    height: 40px;
+}
+.container .footer a button:hover{
+    background-color: #a5a5a5;
+}
+.container .content h4{
+    font-size: 60px;
+}

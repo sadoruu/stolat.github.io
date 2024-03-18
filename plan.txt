@@ -1,0 +1,1 @@
+1. Na ekranie pokazuje sie tylko czarna kropka, po ktorej klikniecu wyskakuje HEADER, FOOTER oraz **RANDOMOWE** ZDJECIE JANKA.
